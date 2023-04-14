@@ -21,17 +21,23 @@
 }
 
 .nav-link {
-    font-family: 'Roboto' sans-serif;
+    font-family: 'Roboto';
+    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
+
     color: #212121;
 }
 
-.nav-link:hover,
+
 .nav-link:focus {
     background-color: var(--secondary-color);
+}
+
+.nav-link:hover {
+    color: var(--secondary-color)
 }
 
 h1 {
@@ -61,17 +67,25 @@ h1 {
 
 .btn-hero {
     font-family: 'Roboto';
+    font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 30px;
     /* identical to box height, or 188% */
+    width: 216px;
+    height: 50px;
+    left: 692px;
+    top: 430px;
 
-    display: flex;
+
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
-    margin: 0 auto;
-    display: block;
+
+    color: #FFFFFF;
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
 }
 
 .sec-hero {
