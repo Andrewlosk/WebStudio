@@ -52,17 +52,80 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 90px;
     
 
 
 }
 
 
+.list_mozlivosti {
+    
+    display: flex;
+    width: 1230px;
+    height: 110px;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-bottom: 80px;
+    
 
 
+    
+    
+}
+
+.zainatia {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.list_zainatia {
+    display: flex;
+    width: 1170px;
+    justify-content: space-between;
+    margin-bottom: 90px;
+    
+}
+
+.team {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 648px;
+    background-color: #F5F4FA;
+}
+
+.list_team{
+    display: flex;
+    width: 1170px;
+    justify-content: space-between;
+    
+}
 
 
+.list_team>li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0.2px 0.5px  #757575;
+    background-color: #FFFFFF;
 
+}
+
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: 252px;
+    
+
+}
 
 
 
@@ -124,9 +187,9 @@
 }
 
 
-.nav-link:focus {
+/* .nav-link:focus {
     background-color: var(--secondary-color);
-}
+} */
 
 .nav-link:hover {
     color: var(--secondary-color)
@@ -181,7 +244,7 @@ h1 {
 }
 
 .sec-hero {
-    width: ;
+    
     text-align: center;
     background: #2F303A;
 }
@@ -202,6 +265,7 @@ h1 {
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
+
 /* or 171% */
 
     letter-spacing: 0.03em;
@@ -301,4 +365,16 @@ h1 {
     
     color: #212121;
     outline: none;
+}
+
+.team>h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: #212121;
 }
