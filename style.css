@@ -310,6 +310,8 @@ h1 {
     letter-spacing: 0.03em;
 
     color: #212121;
+    margin-bottom: 10px;
+    margin-top: 30px;
 }
 
 .team-prof {
@@ -321,7 +323,9 @@ h1 {
 
     letter-spacing: 0.03em;
 
-    color: #757575;   
+    color: #757575;
+    margin-top: 0;
+    margin-bottom: 30px;   
 }
 
 
