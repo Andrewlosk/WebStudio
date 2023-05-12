@@ -1,4 +1,8 @@
 
+/*  ==================================================================HTML TEST ===========================================================================*/
+
+
+
 /* хедер */
 .container {
     width: 1140px;
@@ -29,7 +33,7 @@
     width: 280px;
 }
 
-.header_link>a  {
+.header_link>a {
     color: #757575;
 
 }
@@ -53,14 +57,14 @@
     justify-content: center;
     align-items: center;
     margin-bottom: 90px;
-    
+
 
 
 }
 
 
 .list_mozlivosti {
-    
+
     display: flex;
     width: 1171x;
     height: 110px;
@@ -68,16 +72,16 @@
     margin: 0 auto;
     margin-bottom: 80px;
     padding: 0;
-    
 
 
-    
-    
+
+
+
 }
 
 .list_mozlivosti>li {
     width: 270px;
-}    
+}
 
 .zainatia {
     display: flex;
@@ -91,7 +95,7 @@
     width: 1170px;
     justify-content: space-between;
     margin-bottom: 90px;
-    
+
 }
 
 .team {
@@ -104,12 +108,12 @@
     background-color: #F5F4FA;
 }
 
-.list_team{
+.list_team {
     display: flex;
     width: 1170px;
     justify-content: space-between;
     margin-top: 20px;
-    
+
 }
 
 
@@ -135,7 +139,22 @@
     padding-left: 215px; */
     padding: 60px 0px;
 
-    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+html{
+    font-size: 100px;
 }
 
 
@@ -153,20 +172,7 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-:root{
+:root {
     --secondary-color: #2196F3;
 }
 
@@ -192,7 +198,7 @@
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
-    font-size: 0.85em;
+    font-size: 0.14rem;
     line-height: 16px;
     letter-spacing: 0.02em;
 
@@ -209,27 +215,19 @@
 }
 
 h1 {
-    font-family: 'Roboto';
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 60px;
-/* or 136% */
 
-
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
     font-family: 'Roboto';
 
 
     font-weight: 900;
-    font-size: 44px;
+    font-size: 0.44rem;
     line-height: 60px;
-        /* or 136% */
-    
+    /* or 136% */
+
 
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    
+
     color: #FFFFFF;
 }
 
@@ -257,7 +255,7 @@ h1 {
 }
 
 .sec-hero {
-    
+
     text-align: center;
     background: #2F303A;
 }
@@ -279,7 +277,7 @@ h1 {
     font-size: 14px;
     line-height: 24px;
 
-/* or 171% */
+    /* or 171% */
 
     letter-spacing: 0.03em;
 
@@ -293,7 +291,7 @@ h1 {
     line-height: 42px;
     letter-spacing: 0.03em;
 
-    color: #212121;    
+    color: #212121;
 }
 
 .head-span {
@@ -305,7 +303,7 @@ h1 {
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;
-/* identical to box height */
+    /* identical to box height */
 
     letter-spacing: 0.03em;
 
@@ -325,11 +323,11 @@ h1 {
 
     color: #757575;
     margin-top: 0;
-    margin-bottom: 30px;   
+    margin-bottom: 30px;
 }
 
 
-   
+
 
 
 
@@ -344,8 +342,8 @@ h1 {
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
-        /* or 171% */
-    
+    /* or 171% */
+
     letter-spacing: 0.03em;
     color: #FFFFFF;
     padding: 0;
@@ -357,11 +355,11 @@ h1 {
     height: 252px;
     left: 0px;
     top: 2300px; */
-    
+
     background: #2F303A;
 }
 
-.footer-nav{
+.footer-nav {
     color: rgba(255, 255, 255, 0.6);
 }
 
@@ -373,7 +371,7 @@ h1 {
     line-height: 30px;
     color: #FFFFFF;
     cursor: pointer;
-    
+
     background: #2196F3;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 
@@ -381,17 +379,17 @@ h1 {
 
 .portf-sec1-li {
     background: #F5F4FA;
- 
+
     font-family: 'Roboto';
 
     font-weight: 500;
     font-size: 16px;
     line-height: 26px;
-    
-    
+
+
 
     letter-spacing: 0.03em;
-    
+
     color: #212121;
     outline: none;
 }
@@ -409,7 +407,7 @@ h1 {
 }
 
 .footer-span {
-    color:#FFFFFF
+    color: #FFFFFF
 }
 
 
@@ -436,7 +434,7 @@ h1 {
 
 .button-list-portfolio {
     display: flex;
-    margin:0 auto;
+    margin: 0 auto;
     justify-content: center;
     align-items: center;
     width: 570px;
@@ -462,7 +460,7 @@ h1 {
 
 }
 
-.imglist>li>h3{
+.imglist>li>h3 {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -494,8 +492,8 @@ h1 {
     margin: 0px 24px 20px 24px;
 }
 
-.imglist>li{
+.imglist>li {
     background: #FFFFFF;
     border: 1px solid #EEEEEE;
-    
+
 }
