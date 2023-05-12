@@ -154,7 +154,7 @@
 
 
 html{
-    font-size: 100px;
+    font-size: 36px;
 }
 
 
@@ -168,7 +168,9 @@ html{
 
 
 
-
+header{
+    font-size: 26px;
+}
 
 
 
@@ -188,7 +190,7 @@ html{
 .logo {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
-    font-size: 26px;
+    font-size: 1em;
     line-height: 31px;
     letter-spacing: 0.03em;
     color: #212121;
@@ -198,7 +200,7 @@ html{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
-    font-size: 0.14rem;
+    font-size: 0.53em;
     line-height: 16px;
     letter-spacing: 0.02em;
 
@@ -220,7 +222,7 @@ h1 {
 
 
     font-weight: 900;
-    font-size: 0.44rem;
+    font-size: 44px;
     line-height: 60px;
     /* or 136% */
 
