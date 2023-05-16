@@ -250,6 +250,7 @@ h1 {
 
     text-align: center;
     background-image: url(./images/Imgbackground.png);
+    background-size: cover;
     
 
 }
