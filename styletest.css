@@ -62,7 +62,16 @@
 
 
 }
+/* .sec-hero {
+    animation: backInLeft 2s;
+} */
+.btn-hero{
+    animation: pulse 2s infinite;
+}
 
+.btn-hero:hover{
+    animation: heartBeat 2s infinite;
+}
 
 .list_mozlivosti {
 
@@ -306,9 +315,9 @@ h1 {
     transition: all 1.2s;
 }
 
-.btn-hero:hover{
+/* .btn-hero:hover{
     transform: scale(1.1);
-}
+} */
 
 .list-h5 {
     font-family: 'Roboto';
