@@ -249,7 +249,26 @@ header{
     color: var(--secondary-color)
 
 }
+.nav-contact12{
+    margin-right: 10px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.53em;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    height: 20px;
 
+
+    color: #212121;
+    transition: all 1.1s;
+}
+
+.nav-contact12:hover,
+.nav-contact12:hover path{
+    color: #2196F3;
+    fill: #2196F3;
+}
 
 
 
@@ -388,7 +407,7 @@ h1 {
 
     color: #757575;
     margin-top: 0;
-    margin-bottom: 30px;
+
 }
 
 
@@ -629,3 +648,34 @@ h1 {
 }
 
 
+.contacts-list{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    gap: 10px;
+    padding-left: 0;
+    margin-bottom: 30px;
+    margin-top: 14px;
+
+
+}
+
+
+
+
+.contacts-list>li{
+    width: 44px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+
+}
+
+.contacts-list>li:hover,
+.contacts-list>li:hover path{
+    background: #2196F3;
+    fill:#FFFFFF;
+
+}
