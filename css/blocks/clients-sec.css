@@ -1,0 +1,59 @@
+.clients-sec {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.clients-h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: #212121;
+    margin-bottom: 50px;
+    margin-top: 0;
+}
+
+.client-list {
+    display: flex;
+    gap: 30px;
+    padding: 0;
+    margin-bottom: 0;
+}
+
+.clients-background {
+    width: 170px;
+    height: 92px;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+.client-svg-special path {
+    fill: #AFB1B8;
+
+}
+
+.client-svg {
+    transition: all 1, 6s;
+    cursor: pointer;
+}
+
+.clients-background:hover,
+.client-svg:hover,
+.client-svg:hover path {
+
+    fill: #2196F3;
+    border: 1px solid #2196F3;
+
+}

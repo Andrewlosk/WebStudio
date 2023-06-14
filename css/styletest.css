@@ -1,0 +1,226 @@
+@import "./blocks/header.css";
+@import "./blocks/hero.css";
+@import "./blocks/mozlivosti.css";
+@import "./blocks/fotosect.css";
+@import "./blocks/team.css";
+@import "./blocks/clients-sec.css";
+@import "./blocks/footer.css";
+
+
+
+
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+
+
+
+.list-inst>li{
+    width: 44px;
+    height: 44px;
+
+}
+
+
+
+
+
+html{
+    font-size: 36px;
+}
+
+
+
+
+
+
+
+
+:root {
+    --secondary-color: #2196F3;
+}
+
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+
+
+
+.head-span {
+    color: var(--secondary-color);
+}
+
+
+
+
+
+
+.this-page {
+    color: var(--secondary-color)
+}
+
+
+
+
+.button-list-portfolio {
+    font-size: 16px;
+    
+}
+
+
+.portf-sec1-li {
+    background: #F5F4FA;
+
+    font-family: 'Roboto';
+
+    font-weight: 500;
+    font-size: 1em;
+    line-height: 26px;
+
+
+
+    letter-spacing: 0.03em;
+
+    color: #212121;
+    outline: none;
+
+}
+
+
+
+
+
+/* portfolio */
+
+
+
+
+
+
+
+
+.portf-sec1-li {
+    background: #F5F4FA;
+    border-radius: 4px;
+    border: none;
+    padding: 6px 22px;
+    cursor: pointer;
+    transition: all 1.2s ease;
+
+}
+
+.portf-sec1-li:hover {
+    color: #FFFFFF;
+    background: #2196F3;
+    scale: 1.07;
+
+}
+
+
+
+
+
+.button-list-portfolio {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    width: 570px;
+    justify-content: space-between;
+    margin-top: 94px;
+    padding: 0;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+.imglist {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    width: 1170px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-bottom: 95px;
+
+
+}
+
+
+
+
+
+
+
+.imglist>li>h3 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.125em;
+    line-height: 36px;
+    /* identical to box height, or 200% */
+
+    letter-spacing: 0.06em;
+
+    color: #212121;
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-bottom: 4px;
+
+
+}
+
+.imglist{
+    font-size: 16px;
+}
+
+.imglist>li>p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 30px;
+    /* identical to box height, or 188% */
+
+    letter-spacing: 0.03em;
+
+    color: #757575;
+    margin: 0px 24px 20px 24px;
+}
+
+.imglist>li {
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    margin-bottom: 30px;
+    transition: all 1.2s;
+
+}
+
+.imglist>li:hover {
+    /* transform: scale(1.1); */
+    transform: translate(-22px, -8px);
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
+
+
+
