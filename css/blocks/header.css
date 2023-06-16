@@ -23,7 +23,10 @@ header {
     font-size: 0.53em;
     line-height: 16px;
     letter-spacing: 0.02em;
-    height: 20px;
+
+    display: flex;
+    align-items: center;
+
 
 
     color: #212121;
