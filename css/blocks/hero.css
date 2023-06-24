@@ -33,6 +33,7 @@ h1 {
     text-transform: uppercase;
 
     color: #FFFFFF;
+    margin: 0;
 }
 
 .sec-hero {
@@ -42,6 +43,7 @@ h1 {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+
 
 
 
