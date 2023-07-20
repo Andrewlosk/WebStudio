@@ -1,9 +1,9 @@
 header {
     font-size: 26px;
-    position: fixed;  
+    /* position: fixed;  
     top: 0;  
     z-index: 100;
-    background-color: #FFF;  
+    background-color: #FFF;   */
 }
 
 .header_img {
@@ -42,6 +42,11 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    /* position: fixed;  
+    top: 0;  
+    z-index: 100;
+    background-color: #FFF;  
+    width: 100%; */
 }
 
 .header_left {
