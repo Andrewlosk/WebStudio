@@ -24,3 +24,27 @@
 .fotosect {
     padding-bottom: 94px;
 }
+
+.fotosect_items{
+    position: relative;
+}
+
+.fotosect_items>.label{
+
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+    position: absolute;
+    bottom: 9px;
+    left: 0;
+    background: rgba(47, 48, 58, 0.80);
+    width: 100%;
+    margin: 0;
+    padding: 27px 0;
+}

@@ -1,5 +1,9 @@
 header {
     font-size: 26px;
+    position: fixed;  
+    top: 0;  
+    z-index: 100;
+    background-color: #FFF;  
 }
 
 .header_img {
