@@ -1,9 +1,17 @@
 header {
     font-size: 26px;
-    /* position: fixed;  
+    position: fixed;  
     top: 0;  
     z-index: 100;
-    background-color: #FFF;   */
+    background-color: #FFF;  
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    /* left:0px; */
+    width:100vw;
+
 }
 
 .header_img {
