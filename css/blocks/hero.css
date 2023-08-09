@@ -1,7 +1,7 @@
 .sec-hero {
 
 
-    margin-top: 70px;
+    margin-top: 80px;
 
     margin-bottom: 90px;
 
@@ -118,6 +118,7 @@ h1 {
     border-radius: 4px;
     background: #FFF;
     box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+    transform: translate(-50% -50%);
 }
 
 .close_modal{
@@ -130,6 +131,7 @@ h1 {
     display: flex;
     align-items: center;
     margin-left: 490px;
+    cursor: pointer;
 }
 
 .close_modal img{
@@ -137,5 +139,7 @@ h1 {
 }
 
 .show{
+    
     display: block;
+    z-index: 1500;
 }
