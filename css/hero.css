@@ -113,12 +113,13 @@ h1 {
     position: absolute;
     top: 25%;
     left: 36%;
-    width: 528px;
-    height: 581px;
+    width: 448px;
+    height: 521px;
     border-radius: 4px;
     background: #FFF;
     box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
     transform: translate(-50% -50%);
+    padding: 30px 40px;
 }
 
 .close_modal{
@@ -130,7 +131,8 @@ h1 {
     border-color: #cfcfcf;
     display: flex;
     align-items: center;
-    margin-left: 490px;
+    margin-left: 440px;
+    margin-top: -17px;
     cursor: pointer;
 }
 
@@ -142,4 +144,59 @@ h1 {
     
     display: block;
     z-index: 1500;
+}
+
+.modal_title{
+    color: #212121;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.6px;
+}
+
+.modal_form label{
+    color: #757575;
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.12px;
+    margin-bottom: 4px;
+}
+
+.modal_form{
+    display: flex;
+    flex-direction: column;
+    width: 448px;
+
+}
+
+.modal_form input{
+    width: 100%;
+    height: 40px;
+
+    background-position: 4px;
+    margin-bottom: 10px;
+}
+
+
+.inp_email{
+    background-image: url(../images/email_icon.svg);
+    background-repeat: no-repeat;    
+}
+
+.inp_name{
+    background-image: url(../images/user_icon.svg);
+    background-repeat: no-repeat;
+    background-size: 18px;
+
+}
+
+.inp_tel{
+    background-image: url(../images/phone_icon.svg);
+    background-repeat: no-repeat;    
 }
