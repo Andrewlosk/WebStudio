@@ -1,4 +1,4 @@
-@import "./blocks/header.css";
+@import "./header.css";
 @import "./hero.css";
 @import "./blocks/mozlivosti.css";
 @import "./blocks/fotosect.css";
@@ -30,6 +30,7 @@
 
 html{
     font-size: 36px;
+    scroll-behavior: smooth;
 }
 
 
