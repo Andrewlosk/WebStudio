@@ -54,8 +54,9 @@
     align-items: center;
     gap: 10px;
     padding-left: 0;
-    margin-bottom: 30px;
+
     margin: 0;
+    margin-bottom: 30px;
 
 }
 
@@ -67,6 +68,7 @@
     justify-content: center;
     border-radius: 100%;
     background: rgba(255, 255, 255, 0.1);
+    padding-bottom: 7px;
 }
 
 .contacts-list-footer>li:hover,
@@ -111,7 +113,7 @@
 
 
 .footer-div {
-    display:inline;
+    display: inline;
     width: 251px;
 }
 
@@ -127,7 +129,7 @@
 
 }
 
-.third_footer_input{
+.third_footer_input {
     background: #2F303A;
     width: 342px;
     height: 50px;
@@ -137,7 +139,8 @@
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 20px; /* 125% */
+    line-height: 20px;
+    /* 125% */
     letter-spacing: 0.48px;
     border-radius: 4px;
     border: 1px solid rgba(255, 255, 255, 0.30);
@@ -146,7 +149,8 @@
     outline: none;
 
 }
-.third_footer_btn{
+
+.third_footer_btn {
     border-radius: 4px;
     background: #2196F3;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
@@ -156,27 +160,28 @@
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
-    line-height: 30px; /* 187.5% */
+    line-height: 30px;
+    /* 187.5% */
     letter-spacing: 0.96px;
     padding: 0;
     display: flex;
-    align-items:center;
+    align-items: center;
     padding: 12px 28px;
     border: none;
     cursor: pointer;
 }
 
-.third_footer_form{
+.third_footer_form {
     display: flex;
-    gap:12px;
-    align-items:center;
+    gap: 12px;
+    align-items: center;
 
 }
 
-.third_footer{
-    margin-left: 33px; 
+.third_footer {
+    margin-left: 33px;
 }
 
-.third_footer_btn_img{
+.third_footer_btn_img {
     margin-left: 10px;
 }

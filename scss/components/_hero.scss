@@ -1,7 +1,7 @@
 .sec-hero {
 
 
-    margin-top: 80px;
+    margin-top: 74px;
 
     margin-bottom: 90px;
 
@@ -99,7 +99,7 @@ h1 {
 
 } */
 
-.overlay{
+.overlay {
     background: rgba(0, 0, 0, 0.5);
     width: 100%;
     height: 100%;
@@ -109,7 +109,7 @@ h1 {
     display: none;
 }
 
-.modal{
+.modal {
     position: absolute;
     top: 25%;
     left: 36%;
@@ -123,7 +123,7 @@ h1 {
 
 }
 
-.close_modal{
+.close_modal {
     padding: 0;
     border-radius: 50%;
     padding: 6px;
@@ -137,17 +137,17 @@ h1 {
     cursor: pointer;
 }
 
-.close_modal img{
+.close_modal img {
     /* margin-bottom: 12px; */
 }
 
-.show{
-    
+.show {
+
     display: block;
     z-index: 1500;
 }
 
-.modal_title{
+.modal_title {
     color: #212121;
     text-align: center;
     font-family: Roboto;
@@ -160,7 +160,7 @@ h1 {
     margin-bottom: 12px;
 }
 
-.modal_form label{
+.modal_form label {
     color: #757575;
     font-family: Roboto;
     font-size: 12px;
@@ -171,7 +171,7 @@ h1 {
     margin-bottom: 4px;
 }
 
-.modal_form{
+.modal_form {
     display: flex;
     flex-direction: column;
     width: 448px;
@@ -179,7 +179,7 @@ h1 {
 
 }
 
-.modal_form input{
+.modal_form input {
     width: 100%;
     /* height: 40px; */
     border-radius: 4px;
@@ -202,7 +202,7 @@ h1 {
 
 } */
 
-.form_group{
+.form_group {
     width: 440px;
     height: 18px;
     padding: 11px 0 5px 12px;
@@ -213,17 +213,17 @@ h1 {
     margin-bottom: 10px;
 }
 
-.form_group input{
-    border:none;
+.form_group input {
+    border: none;
     outline: none;
 }
 
-.form_group:hover{
+.form_group:hover {
     border: 1px solid #2196F3;
 
 }
 
-.form_group:hover svg path{
+.form_group:hover svg path {
     fill: #2196F3;
 
 }
@@ -233,7 +233,7 @@ h1 {
     background-repeat: no-repeat;    
 } */
 
-.modal_textarea{
+.modal_textarea {
     resize: none;
     width: 419px;
     border-radius: 4px;
@@ -249,7 +249,7 @@ h1 {
     padding: 12px 16px;
 }
 
-.modal_btn{
+.modal_btn {
     border-radius: 4px;
     background: #2196F3;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
@@ -260,35 +260,37 @@ h1 {
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
-    line-height: 30px; /* 187.5% */
+    line-height: 30px;
+    /* 187.5% */
     letter-spacing: 0.96px;
     width: 45%;
     padding: 10px 52px;
     border: none;
     margin: 0 auto;
 
-         
+
 }
 
-.form-field_p{
+.form-field_p {
     color: #757575;
     font-family: Roboto;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
-    line-height: 24px; /* 171.429% */
+    line-height: 24px;
+    /* 171.429% */
     letter-spacing: 0.42px;
     margin: 0;
 }
 
-.form-field a{
+.form-field a {
     color: #2196F3;
-    
+
     letter-spacing: 0.42px;
     text-decoration-line: underline;
 }
 
-.form-field input{
+.form-field input {
     width: 16px;
     height: 15px;
     margin: 0;
@@ -296,7 +298,7 @@ h1 {
     margin-left: 10px;
 }
 
-.form-field{
+.form-field {
     display: flex;
     align-items: center;
 
