@@ -1,4 +1,4 @@
-.list_mozlivosti {
+.mozlivosti__list {
 
     display: flex;
     width: 1171px;
@@ -16,16 +16,15 @@
 
 
 }
-
-.section-mozlivosti {
+.mozlivosti {
     padding-bottom: 90px;
 }
 
-.list_mozlivosti>li {
+.mozlivosti__list>li {
     width: 270px;
 }
 
-.background_img_mozlivosti {
+.mozlivosti__img--background {
     width: 270px;
     height: 120px;
     background-color: #F5F4FA;
