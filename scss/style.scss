@@ -65,19 +65,19 @@ html {
 
 
 .this-page {
-    color: var(--secondary-color)
+    color: var(--secondary-color);
 }
 
 
 
 
-.button-list-portfolio {
+.button__menu {
     font-size: 16px;
 
 }
 
 
-.portf-sec1-li {
+.button__menu__item {
     background: #F5F4FA;
 
     font-family: 'Roboto';
@@ -108,7 +108,7 @@ html {
 
 
 
-.portf-sec1-li {
+.button__menu__item {
     background: #F5F4FA;
     border-radius: 4px;
     border: none;
@@ -118,9 +118,9 @@ html {
 
 }
 
-.portf-sec1-li:hover {
+.button__menu__item:hover {
     color: #FFFFFF;
-    background: #2196F3;
+    background: var(--secondary-color);
     scale: 1.07;
 
 }
@@ -129,7 +129,7 @@ html {
 
 
 
-.button-list-portfolio {
+.button__menu {
     display: flex;
     margin: 0 auto;
     justify-content: center;
@@ -194,7 +194,7 @@ html {
     padding: 0;
 }
 
-.sit_name {
+.imglist_subdesk {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -208,7 +208,7 @@ html {
     margin: 0px 24px 20px 24px;
 }
 
-.imglist_li {
+.imglist__item {
     background: #FFFFFF;
     border: 1px solid #EEEEEE;
     margin-bottom: 30px;
@@ -216,14 +216,14 @@ html {
 
 }
 
-.imglist_li:hover {
+.imglist__item:hover {
     /* transform: scale(1.1); */
     transform: translate(-22px, -8px);
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 
-.sit_overlay {
+.imglist__overlay {
     color: #FFF;
     font-family: Roboto;
     font-size: 18px;
@@ -233,12 +233,12 @@ html {
     /* 155.556% */
     letter-spacing: 0.54px;
     width: 100%;
-    height: 294px;
+    height: 296px;
     flex-shrink: 0;
     background: rgba(33, 150, 243, 0.90);
     padding: 64px 24px;
     position: absolute;
-    top: 0;
+    top: -18px;
     left: 0;
     opacity: 0;
     transition: 1.4s;
@@ -252,6 +252,6 @@ html {
 
 }
 
-.sit_overlay:hover {
+.imglist__overlay:hover {
     opacity: 1;
 }

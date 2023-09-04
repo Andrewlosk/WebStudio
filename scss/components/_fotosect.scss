@@ -1,19 +1,20 @@
-.zainatia {
+.occupation {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.list_zainatia {
+.occupation__list {
     display: flex;
     width: 1170px;
     justify-content: space-between;
+    padding: 0;
 
 
 }
 
-.sec-2-head {
+.occupation__title {
     font-family: 'Roboto';
     font-weight: 700;
     font-size: 36px;
@@ -27,11 +28,11 @@
     padding-bottom: 94px;
 }
 
-.fotosect_items {
+.occupation_items {
     position: relative;
 }
 
-.fotosect_items>.label {
+.occupation__label {
 
     color: #FFF;
     text-align: center;

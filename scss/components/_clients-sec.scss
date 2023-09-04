@@ -1,9 +1,9 @@
-.clients-sec {
+.clients {
     padding-top: 94px;
     padding-bottom: 94px;
 }
 
-.clients-h2 {
+.clients__title {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -17,14 +17,14 @@
     margin-top: 0;
 }
 
-.client-list {
+.clients__list {
     display: flex;
     gap: 30px;
     padding: 0;
     margin-bottom: 0;
 }
 
-.clients-background {
+.clients__background {
     width: 170px;
     height: 92px;
     border: 1px solid #AFB1B8;
@@ -39,21 +39,21 @@
 
 
 
-.client-svg-special path {
+.clients__img--special path {
     fill: #AFB1B8;
 
 }
 
-.client-svg {
+.clients__img {
     transition: all 1, 6s;
     cursor: pointer;
 }
 
-.clients-background:hover,
-.client-svg:hover,
-.client-svg:hover path {
+.clients__background:hover,
+.clients__img:hover,
+.clients__img:hover path {
 
-    fill: #2196F3;
-    border: 1px solid #2196F3;
+    fill: var(--secondary-color);
+    border: 1px solid var(--secondary-color);
 
 }
