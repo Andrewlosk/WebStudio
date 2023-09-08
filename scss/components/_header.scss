@@ -3,7 +3,7 @@
     position: fixed;
     top: 0;
     z-index: 100;
-    background-color: #FFF;
+    background-color: $color_white;
 
     display: flex;
     align-items: center;
@@ -25,7 +25,7 @@
     font-size: 1em;
     line-height: 31px;
     letter-spacing: 0.03em;
-    color: #212121;
+    color: $color_light_black;
 }
 
 .nav__link {
@@ -41,7 +41,7 @@
 
 
 
-    color: #212121;
+    color: $color_light_black;
     transition: all 1.1s;
 
 }
@@ -87,7 +87,7 @@
 
 .nav-link:hover {
 
-    color: var(--secondary-color)
+    color: $color_blue;
 }
 
 
@@ -109,7 +109,7 @@
     bottom: -29px;
     width: 100%;
     height: 3px;
-    background-color: var(--secondary-color);
+    background-color: $color_blue;
 
 }
 
@@ -125,15 +125,15 @@
 
 
 
-    color: #212121;
+    color: $color_light_black;
     transition: all 1.1s;
 }
 
 .nav__contact12:hover,
 .nav__contact12:hover i,
 .nav__contact12:hover path {
-    color: var(--secondary-color);
-    fill: var(--secondary-color);
+    color: $color_blue;
+    fill: $color_blue;
 }
 
 

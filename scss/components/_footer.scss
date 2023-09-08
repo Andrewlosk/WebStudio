@@ -6,18 +6,12 @@
     /* or 171% */
 
     letter-spacing: 0.03em;
-    color: #FFFFFF;
+    color: $color_white;
     padding: 0;
     width: 251px;
 }
 
 .contacts {
-
-    /* width: 1600px;
-    height: 252px;
-    left: 0px;
-    top: 2300px; */
-
     background: #2F303A;
 }
 
@@ -26,7 +20,7 @@
 }
 
 .footer-span {
-    color: #FFFFFF
+    color: $color_white;
 }
 
 
@@ -40,7 +34,7 @@
     font-size: 1em;
     line-height: 31px;
     letter-spacing: 0.03em;
-    color: #212121;
+    color: $color_light_black;
 }
 
 
@@ -73,8 +67,8 @@
 
 .footer__list--contacts>li:hover,
 .footer__list--contacts>li:hover path {
-    background: var(--secondary-color);
-    fill: #FFFFFF;
+    background: $color_blue;
+    fill: $color_white;
 
 }
 
@@ -88,7 +82,7 @@
     line-height: 16px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #FFFFFF
+    color: $color_white;
 }
 
 .footer__block--second{
@@ -152,9 +146,9 @@
 
 .footer__btn--third {
     border-radius: 4px;
-    background: var(--secondary-color);
+    background: $color_blue;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-    color: #FFF;
+    color: $color_white;
     text-align: center;
     font-family: Roboto;
     font-size: 16px;

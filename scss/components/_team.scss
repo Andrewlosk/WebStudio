@@ -9,7 +9,7 @@
     align-items: center;
     width: auto;
     height: 648px;
-    background-color: #F5F4FA;
+    background-color: $color_gray;
 }
 
 .team__list {
@@ -37,7 +37,7 @@
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
 
-    background-color: #FFFFFF;
+    background-color: $color_white;
 
 
 }
@@ -51,7 +51,7 @@
 
     letter-spacing: 0.03em;
 
-    color: #212121;
+    color: $color_light_black;
     margin-bottom: 10px;
     margin-top: 30px;
 }
@@ -79,7 +79,7 @@
     text-align: center;
     letter-spacing: 0.03em;
 
-    color: #212121;
+    color: $color_light_black;
 }
 
 .team__list{
@@ -107,7 +107,7 @@
     text-align: center;
     letter-spacing: 0.03em;
 
-    color: #212121;
+    color: $color_light_black;
 }
 
 .contacts-list>li {
@@ -122,8 +122,8 @@
 
 .contacts-list>li:hover,
 .contacts-list>li:hover path {
-    background: var(--secondary-color);
-    fill: #FFFFFF;
+    background: $color_blue;
+    fill: $color_white;
 
 }
 

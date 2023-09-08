@@ -12,7 +12,7 @@
     text-align: center;
     letter-spacing: 0.03em;
 
-    color: #212121;
+    color: $color_light_black;
     margin-bottom: 50px;
     margin-top: 0;
 }
@@ -53,7 +53,7 @@
 .clients__img:hover,
 .clients__img:hover path {
 
-    fill: var(--secondary-color);
-    border: 1px solid var(--secondary-color);
+    fill: $color_blue;
+    border: 1px solid $color_blue;
 
 }

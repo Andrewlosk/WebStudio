@@ -61,27 +61,28 @@ h1 {
 }
 
 .hero__btn {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 30px;
-    /* identical to box height, or 188% */
+
+    @include btn_variable1();
+    // font-family: 'Roboto';
+    // font-style: normal;
+    // font-weight: 700;
+    // font-size: 16px;
+    // line-height: 30px;
+
     width: 216px;
     height: 50px;
 
-    cursor: pointer;
+    // cursor: pointer;
 
 
-    /* align-items: center;
-    text-align: center; */
-    letter-spacing: 0.06em;
 
-    color: #FFFFFF;
-    background: var(--secondary-color);
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 4px;
-    border: none;
+    // letter-spacing: 0.06em;
+
+    // color: #FFFFFF;
+    // background: $color_blue;
+    // box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    // border-radius: 4px;
+    // border: none;
     transition: all 1.2s;
 }
 
@@ -103,7 +104,7 @@ h1 {
     width: 448px;
     height: 521px;
     border-radius: 4px;
-    background: #FFF;
+    background: $color_white;
     box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
     transform: translate(-50% -50%);
     padding: 30px 40px;
@@ -135,7 +136,7 @@ h1 {
 }
 
 .modal_title {
-    color: #212121;
+    color: $color_light_black;
     text-align: center;
     font-family: Roboto;
     font-size: 20px;
@@ -190,7 +191,7 @@ h1 {
 } */
 
 .form_group {
-    width: 440px;
+    // width: 440px;
     height: 18px;
     padding: 11px 0 5px 12px;
     padding-bottom: 10px;
@@ -206,12 +207,12 @@ h1 {
 }
 
 .form_group:hover {
-    border: 1px solid var(--secondary-color);
+    border: 1px solid $color_blue;
 
 }
 
 .form_group:hover svg path {
-    fill: var(--secondary-color);
+    fill: $color_blue;
 
 }
 
@@ -222,7 +223,7 @@ h1 {
 
 .modal_textarea {
     resize: none;
-    width: 419px;
+    // width: 419px;
     border-radius: 4px;
     border: 1px solid rgba(33, 33, 33, 0.20);
     height: 96px;
@@ -237,23 +238,24 @@ h1 {
 }
 
 .modal_btn {
-    border-radius: 4px;
-    background: var(--secondary-color);
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-    padding: 0;
-    color: #FFF;
+    // border-radius: 4px;
+    // background: $color_blue;
+    // box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    // padding: 0;
+    // color: $color_white;
     text-align: center;
-    font-family: Roboto;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 30px;
-    /* 187.5% */
-    letter-spacing: 0.96px;
-    width: 45%;
+    // font-family: Roboto;
+    // font-size: 16px;
+    // font-style: normal;
+    // font-weight: 700;
+    // line-height: 30px;
+    // /* 187.5% */
+    // letter-spacing: 0.96px;
+    // width: 45%;
     padding: 10px 52px;
-    border: none;
+    // border: none;
     margin: 0 auto;
+    @include btn_variable1();
 
 
 }
@@ -271,7 +273,7 @@ h1 {
 }
 
 .form-field a {
-    color: var(--secondary-color);
+    color: $color_blue;
 
     letter-spacing: 0.42px;
     text-decoration-line: underline;
