@@ -43,7 +43,7 @@
 }
 
 .team__name {
-    font-family: 'Roboto';
+    font-family: $font_1;
     font-weight: 500;
     font-size: 1em;
     line-height: 19px;
@@ -57,7 +57,7 @@
 }
 
 .team__prof {
-    font-family: 'Roboto';
+    font-family: $font_1;
     font-weight: 400;
     font-size: 1em;
     line-height: 19px;
@@ -71,7 +71,7 @@
 }
 
 .team__title {
-    font-family: 'Roboto';
+    font-family: $font_1;
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
@@ -99,7 +99,7 @@
 }
 
 .team-h2 {
-    font-family: 'Roboto';
+    font-family: $font_1;
     font-style: normal;
     font-weight: 700;
     font-size: 36px;

@@ -20,7 +20,7 @@
 
 h1 {
 
-    font-family: 'Roboto';
+    font-family: $font_1;
 
 
     font-weight: 900;
@@ -101,8 +101,8 @@ h1 {
     position: absolute;
     top: 25%;
     left: 36%;
-    width: 448px;
-    height: 521px;
+    width: 548px;
+    height: 541px;
     border-radius: 4px;
     background: $color_white;
     box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
@@ -120,14 +120,16 @@ h1 {
     border-color: #cfcfcf;
     display: flex;
     align-items: center;
-    margin-left: 440px;
+    // margin-left: 440px;
     margin-top: -17px;
+    position: absolute;
+    right: 30px;
     cursor: pointer;
 }
 
-.close_modal img {
+// .close_modal img {
     /* margin-bottom: 12px; */
-}
+// }
 
 .show {
 
@@ -138,7 +140,7 @@ h1 {
 .modal_title {
     color: $color_light_black;
     text-align: center;
-    font-family: Roboto;
+    font-family: $font_1;
     font-size: 20px;
     font-style: normal;
     font-weight: 700;
@@ -146,11 +148,12 @@ h1 {
     letter-spacing: 0.6px;
     margin: 0;
     margin-bottom: 12px;
+    padding-top: 10px;
 }
 
 .modal_form label {
     color: #757575;
-    font-family: Roboto;
+    font-family: $font_1;
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
@@ -173,6 +176,7 @@ h1 {
     border-radius: 4px;
     border: 1px solid rgba(33, 33, 33, 0.20);
     background-position: 4px;
+
     width: 100%;
 
 }
@@ -198,6 +202,7 @@ h1 {
     display: flex;
     border: 1px solid rgba(33, 33, 33, 0.20);
     border-radius: 4px;
+    height: 40px;
     margin-bottom: 10px;
 }
 
@@ -228,7 +233,7 @@ h1 {
     border: 1px solid rgba(33, 33, 33, 0.20);
     height: 96px;
     color: rgba(117, 117, 117, 0.50);
-    font-family: Roboto;
+    font-family: $font_1;
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
@@ -262,7 +267,7 @@ h1 {
 
 .form-field_p {
     color: #757575;
-    font-family: Roboto;
+    font-family: $font_1;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;

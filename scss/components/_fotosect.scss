@@ -15,7 +15,7 @@
 }
 
 .occupation__title {
-    font-family: 'Roboto';
+    font-family: $font_1;
     font-weight: 700;
     font-size: 36px;
     line-height: 42px;
@@ -36,7 +36,7 @@
 
     color: $color_white;
     text-align: center;
-    font-family: Roboto;
+    font-family: $font_1;
     font-size: 14px;
     font-style: normal;
     font-weight: 700;
