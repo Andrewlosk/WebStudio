@@ -1,53 +1,69 @@
 .hero {
-
-
-    margin-top: 74px;
-
-    margin-bottom: 90px;
-
-
-
-
-}
-
-.hero__btn {
-    animation: pulse 2s infinite;
-}
-
-.hero__btn:hover {
-    animation: heartBeat 2s infinite;
-}
-
-h1 {
-
-    font-family: $font_1;
-
-
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 60px;
-    /* or 136% */
-
-
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-
-    color: #FFFFFF;
-    margin: 0;
-}
-
-.hero {
-
     text-align: center;
     background-image: url(../images/Imgbackground.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 
+    margin-top: 74px;
+    margin-bottom: 90px;
 
+    &__btn{
+        animation: pulse 2s infinite;
+        transition: all 1.2s;
+        width: 216px;
+        height: 50px;
+        @include btn_variable1();
+    }
+    &__btn:hover{
+        animation: heartBeat 2s infinite;
+    }
 
+    &__title{
+        font-family: $font_1;
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 60px;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        margin: 0;
+    }
 
 }
+
+// .hero__btn {
+//     animation: pulse 2s infinite;
+// }
+
+// .hero__btn:hover {
+//     animation: heartBeat 2s infinite;
+// }
+
+// h1 {
+
+//     font-family: $font_1;
+//     font-weight: 900;
+//     font-size: 44px;
+//     line-height: 60px;
+//     letter-spacing: 0.06em;
+//     text-transform: uppercase;
+//     color: #FFFFFF;
+//     margin: 0;
+// }
+
+// .hero {
+
+//     text-align: center;
+//     background-image: url(../images/Imgbackground.png);
+//     background-repeat: no-repeat;
+//     background-size: cover;
+//     background-position: center;
+
+
+
+
+// }
 
 .overlay1 {
     background: rgba(47, 48, 58, 0.4);
@@ -60,17 +76,17 @@ h1 {
 
 }
 
-.hero__btn {
+// .hero__btn {
 
-    @include btn_variable1();
+//     @include btn_variable1();
     // font-family: 'Roboto';
     // font-style: normal;
     // font-weight: 700;
     // font-size: 16px;
     // line-height: 30px;
 
-    width: 216px;
-    height: 50px;
+    // width: 216px;
+    // height: 50px;
 
     // cursor: pointer;
 
@@ -83,8 +99,14 @@ h1 {
     // box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     // border-radius: 4px;
     // border: none;
-    transition: all 1.2s;
-}
+    // transition: all 1.2s;
+// }
+
+
+
+
+
+
 
 
 .overlay {
