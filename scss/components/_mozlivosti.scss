@@ -1,63 +1,126 @@
-.mozlivosti__list {
-
-    display: flex;
-    width: 1171px;
-
-    justify-content: space-between;
-    margin: 0 auto;
-    /* margin-bottom: 90px; */
-
-    padding: 0;
 
 
-    font-size: 14px;
-
-
-
-
-}
 .mozlivosti {
-    padding-bottom: 90px;
+	// padding-bottom: 90px;
+	&__list {
+		display: flex;
+		width: 1171px;
+		justify-content: space-between;
+		margin: 0 auto;
+		margin-bottom: 90px;
+		padding: 0;
+		font-size: 14px;
+		/* margin-bottom: 90px; */
+		&>li {
+			width: 270px;
+		}
+	}
+	&__img--background {
+		width: 270px;
+		height: 120px;
+		background-color:  $color_gray;
+		border-radius: 4px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	&__title {
+		font-family:  $font_1;
+		font-weight: 700;
+		font-size: 1em;
+		line-height: 16px;
+		letter-spacing: 0.03em;
+		text-transform: uppercase;
+		color:  $color_light_black;
+	}
+	&__desk {
+		font-family:  $font_1;
+		font-weight: 400;
+		font-size: 14px;
+		line-height: 24px;
+		letter-spacing: 0.03em;
+		color: $color_gray2;
+	}
 }
 
-.mozlivosti__list>li {
-    width: 270px;
-}
-
-.mozlivosti__img--background {
-    width: 270px;
-    height: 120px;
-    background-color: $color_gray;
-    border-radius: 4px;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 
 
 
 
-.mozlivosti__title {
-    font-family: $font_1;
-    font-weight: 700;
-    font-size: 1em;
-    line-height: 16px;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
 
-    color: $color_light_black;
-}
 
-.mozlivosti__desk{
-    font-family: $font_1;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
 
-    /* or 171% */
 
-    letter-spacing: 0.03em;
 
-    color: #757575;
-}
+
+
+
+
+
+
+
+
+// .mozlivosti {
+//     padding-bottom: 90px;
+// }
+
+
+// .mozlivosti__list {
+
+//     display: flex;
+//     width: 1171px;
+
+//     justify-content: space-between;
+//     margin: 0 auto;
+//     /* margin-bottom: 90px; */
+
+//     padding: 0;
+
+
+//     font-size: 14px;
+
+
+
+
+// }
+
+// .mozlivosti__list>li {
+//     width: 270px;
+// }
+
+// .mozlivosti__img--background {
+//     width: 270px;
+//     height: 120px;
+//     background-color: $color_gray;
+//     border-radius: 4px;
+
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+// }
+
+
+
+
+// .mozlivosti__title {
+//     font-family: $font_1;
+//     font-weight: 700;
+//     font-size: 1em;
+//     line-height: 16px;
+//     letter-spacing: 0.03em;
+//     text-transform: uppercase;
+
+//     color: $color_light_black;
+// }
+
+// .mozlivosti__desk{
+//     font-family: $font_1;
+//     font-weight: 400;
+//     font-size: 14px;
+//     line-height: 24px;
+
+
+//     letter-spacing: 0.03em;
+
+//     color: #757575;
+// }

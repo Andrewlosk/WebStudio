@@ -1,6 +1,6 @@
 @import "./utils/color";
 @import "./utils/mixin";
-
+@import "./utils/variables";
 
 
 @import "./components/header";
@@ -260,3 +260,4 @@ html {
 .imglist__overlay:hover {
     opacity: 1;
 }
+
