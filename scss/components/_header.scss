@@ -12,6 +12,10 @@ $var2: #757575;
 	justify-content: center;
 	width: 100vw;
 	margin-right: 10px;
+
+	&__hamburger{
+		display: none;
+	}
 	&__logo {
 		font-family: 'Raleway', sans-serif;
 		font-weight: 700;
@@ -19,6 +23,9 @@ $var2: #757575;
 		line-height: 31px;
 		letter-spacing: 0.03em;
 		color:  $color_light_black;
+		@media (min-width:768px){
+			font-size: 24px;
+		}
 	}
 	&__block {
 		display: flex;
@@ -29,26 +36,40 @@ $var2: #757575;
 		// z-index: 100;
 		background-color: $color_white;
 		// width: 100%;
+
+
 	}
 
 	&__left {
 		display: flex;
 		align-items: center;
+
 	}
 	&_list {
 		display: flex;
 		cursor: pointer;
 		margin: 0;
 		gap: 53px;
+		padding: 0;
 	}
 	&_link>a {
+		margin: 0;
 		color: $color_gray2;
+		@media (min-width: 768px){
+			font-size: 12px;
+		}
 	}
 	&_link {
 		display: flex;
 		width: 330px;
 		justify-content: space-between;
 		align-items: center;
+		@media (min-width: 768px){
+			flex-wrap: wrap;
+			gap: 10px;
+			width: 138px;
+			
+		}
 	}
 }
 .nav__link {
@@ -80,7 +101,8 @@ $var2: #757575;
 	position: relative;
 }
 .nav__contact12 {
-	margin-right: 10px;
+	// margin-right: 10px;
+	margin: 0;
 	font-family:  $font_1;
 	font-style: normal;
 	font-weight: 500;
@@ -94,7 +116,7 @@ $var2: #757575;
 		fill:  $color_blue;
 	}
 	&>i {
-		margin-right: 10px;
+		// margin-right: 10px;
 	}
 }
 .navigation {

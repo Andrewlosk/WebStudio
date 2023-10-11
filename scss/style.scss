@@ -1,4 +1,4 @@
-@import "./utils/color";
+@import "./utils/color", "./utils/general";
 @import "./utils/mixin";
 @import "./utils/variables";
 
@@ -14,10 +14,10 @@
 
 
 
-.container {
-    width: 1140px;
-    margin: 0 auto;
-}
+// .container {
+//     width: 1140px;
+//     margin: 0 auto;
+// }
 
 
 
