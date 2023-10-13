@@ -7,14 +7,24 @@ $var2: #757575;
   top: 0;
   z-index: 1000;
   background-color: $color_white;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+
   width: 100vw;
-  margin-right: 10px;
+  @media (min-width:480px) {
+    padding: 16px 0;
+    height: 60px;
+  }
 
   &__hamburger {
-    display: none;
+    @media (min-width:480px){
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+      span{
+        width: 24px;
+        display: block;
+        border: 2px solid #212121;
+      }
+    }
   }
   &__logo {
     font-family: 'Raleway', sans-serif;
@@ -23,10 +33,14 @@ $var2: #757575;
     line-height: 31px;
     letter-spacing: 0.03em;
     color: $color_light_black;
+
+    @media (min-width:480px){
+      font-size: 24px;
+    }
   }
   &__block {
-    display: none;
-    // display: flex;
+    // display: none;
+    display: flex;
     justify-content: space-between;
     align-items: center;
     // position: fixed;
@@ -34,6 +48,7 @@ $var2: #757575;
     // z-index: 100;
     background-color: $color_white;
     // width: 100%;
+    
   }
 
   &__left {
@@ -52,6 +67,12 @@ $var2: #757575;
     color: $color_gray2;
   }
   &_link {
+    @media(min-width:480px) {
+      display: none;
+      
+    }
+
+
     @media screen and (min-width: 768px) {
       display: flex;
       flex-direction: column;
@@ -121,6 +142,9 @@ $var2: #757575;
 }
 .navigation {
   margin-left: 63px;
+  @media (min-width:480px){
+    display: none;
+  }
 }
 
 // .header {
