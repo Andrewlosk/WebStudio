@@ -13,6 +13,11 @@ $var2: #757575;
     padding: 16px 0;
     height: 60px;
   }
+  @media (min-width:768px) {
+    padding: 25px 0;
+    height: 80px;
+    
+  }
 
   &__hamburger {
     @media (min-width:480px){
@@ -25,17 +30,27 @@ $var2: #757575;
         border: 2px solid #212121;
       }
     }
+
+    @media (min-width:768px){
+      display: none;
+
+    }
   }
   &__logo {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 1em;
-    line-height: 31px;
+    // line-height: 31px;
     letter-spacing: 0.03em;
     color: $color_light_black;
+    margin: 0;
+
 
     @media (min-width:480px){
       font-size: 24px;
+    }
+    @media (min-width:1200px){
+      font-size: 26px;
     }
   }
   &__block {
@@ -61,6 +76,13 @@ $var2: #757575;
     margin: 0;
     gap: 53px;
     padding: 0;
+
+    @media (min-width:480px){
+      display: none;
+    }
+    @media (min-width:768px){
+      display: flex;
+    }
   }
   &_link > a {
     margin: 0;
@@ -73,7 +95,7 @@ $var2: #757575;
     }
 
 
-    @media screen and (min-width: 768px) {
+    @media (min-width: 768px) {
       display: flex;
       flex-direction: column;
       width: auto;
@@ -82,7 +104,7 @@ $var2: #757575;
       justify-content: normal;
     }
 
-    @media screen and (min-width: 1200px) {
+    @media (min-width: 1200px) {
       width: 330px;
       justify-content: space-between;
       align-items: center;
@@ -142,9 +164,12 @@ $var2: #757575;
 }
 .navigation {
   margin-left: 63px;
-  @media (min-width:480px){
-    display: none;
-  }
+  // @media (min-width:480px){
+  //   display: none;
+  // }
+  // @media (min-width:768px){
+  //   display: flex;
+  // }
 }
 
 // .header {
