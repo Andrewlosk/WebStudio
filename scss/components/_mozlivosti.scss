@@ -2,9 +2,13 @@
 
 .mozlivosti {
 	// padding-bottom: 90px;
+	// @media (min-width:480px){
+	// 	display: flex;
+
+	// }
 	&__list {
 		display: flex;
-		width: 1171px;
+		// width: 1171px;
 		justify-content: space-between;
 		margin: 0 auto;
 		margin-bottom: 90px;
@@ -13,6 +17,31 @@
 		/* margin-bottom: 90px; */
 		&>li {
 			width: 270px;
+			@media (min-width:480px){
+				width: 450px;
+			}
+			@media(min-width:768px){
+				width: 354px;
+			}
+			@media(min-width:1200px){
+				width: 270px;
+			}
+		}
+		@media (min-width:480px){
+			flex-direction: column;
+			flex-wrap: wrap;
+			
+		}
+		@media(min-width:768px){
+			flex-direction: row;
+
+			width: 738px;
+		}
+		@media (min-width:1200px){
+			flex-wrap: nowrap;
+			gap: 30px;
+			width: auto;
+
 		}
 	}
 	&__img--background {
@@ -23,6 +52,16 @@
 		display: flex;
 		align-items: center;
 		justify-content: center;
+		@media(min-width:480px){
+			width: 450px;
+
+		}
+		@media(min-width:768px){
+			width: 354px;
+		}
+		@media(min-width:1200px){
+			width: 270px;
+		}		
 	}
 	&__title {
 		font-family:  $font_1;
@@ -32,6 +71,13 @@
 		letter-spacing: 0.03em;
 		text-transform: uppercase;
 		color:  $color_light_black;
+		@media(min-width:480px){
+			text-align: center;
+
+		}
+		@media(min-width:768px){
+			text-align: left;
+		}
 	}
 	&__desk {
 		font-family:  $font_1;

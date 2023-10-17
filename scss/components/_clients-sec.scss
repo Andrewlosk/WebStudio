@@ -3,6 +3,7 @@
 .clients {
 	padding-top: 94px;
 	padding-bottom: 94px;
+	
 	&__title {
 		font-family:  $font_1;
 		font-style: normal;
@@ -14,12 +15,27 @@
 		color:  $color_light_black;
 		margin-bottom: 50px;
 		margin-top: 0;
+		@media(min-width:480px){
+			font-size: 28px;
+		}
+		@media(min-width:1200px){
+			font-size: 36px;
+
+		}
 	}
 	&__list {
 		display: flex;
 		gap: 30px;
 		padding: 0;
 		margin-bottom: 0;
+		@media(min-width:480px){
+			flex-wrap: wrap;
+		}
+		@media(min-width:1200px){
+			flex-wrap: nowrap;
+
+		}
+
 	}
 	&__background {
 		width: 170px;
@@ -29,6 +45,20 @@
 		display: flex;
 		align-items: center;
 		justify-content: center;
+		@media(min-width:480px){
+			width: 210px;
+			height: 92px;
+
+		}
+		@media(min-width:768px){
+			width: 226px;
+			height: 92px;
+
+		}
+		@media(min-width:1200px){
+			width: 170px;
+			height: 92px;
+		}
 	}
 	&__img--special path {
 		fill: $color_gray3;

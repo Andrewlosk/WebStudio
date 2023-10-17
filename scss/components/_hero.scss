@@ -32,6 +32,14 @@
 
         @media (min-width:480px){
             font-size: 26px;
+            line-height: 42px;
+        }
+        @media (min-width:1200px){
+            font-size: 44px;
+
+            font-style: normal;
+            font-weight: 900;
+            line-height: 60px
         }
     }
 
