@@ -3,8 +3,6 @@
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
-    /* or 171% */
-
     letter-spacing: 0.03em;
     color: $color_white;
     padding: 0;
@@ -114,10 +112,7 @@
 .contacts {
     display: flex;
     flex-direction: column;
-    /* width: 1140;
-    height: 252px;
-    padding-top: 60px;
-    padding-left: 215px; */
+
     padding: 60px 0px;
 
 
@@ -134,36 +129,24 @@
     font-style: normal;
     font-weight: 400;
     line-height: 20px;
-    /* 125% */
+
     letter-spacing: 0.48px;
     border-radius: 4px;
     border: 1px solid rgba(255, 255, 255, 0.30);
-    /* background: rgba(33, 150, 243, 0.00); */
+
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     outline: none;
 
 }
 
 .footer__btn--third {
-    // border-radius: 4px;
-    // background: $color_blue;
-    // box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-    // color: $color_white;
-    // text-align: center;
-    // font-family: Roboto;
-    // font-size: 16px;
-    // font-style: normal;
-    // font-weight: 700;
-    // line-height: 30px;
-    /* 187.5% */
-    // letter-spacing: 0.96px;
+
     padding: 0;
     display: flex;
     align-items: center;
     @include btn_variable1();
     padding: 11px 28px;
-    // border: none;
-    // cursor: pointer;
+
 }
 
 .footer__form--third{
