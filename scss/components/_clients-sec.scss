@@ -3,7 +3,11 @@
 .clients {
 	padding-top: 94px;
 	padding-bottom: 94px;
-	
+
+	&__group{
+		display: flex;
+		margin: 0 auto;
+	}
 	&__title {
 		font-family:  $font_1;
 		font-style: normal;
@@ -34,9 +38,12 @@
 		// gap: 30px;
 		padding: 0;
 		margin-bottom: 0;
+		justify-content: center;
+
 		@media(min-width:320px){
 			gap: 20px;
 			flex-wrap: wrap;
+			
 		}
 		@media(min-width:480px){
 			gap: 30px;
