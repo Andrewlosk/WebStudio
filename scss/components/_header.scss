@@ -9,12 +9,16 @@ $var2: #757575;
   background-color: $color_white;
 
   width: 100vw;
+  @media(){
+    padding: 14px 0;
+    height: 55px;
+  }
   @media (min-width:480px) {
     padding: 16px 0;
     height: 60px;
   }
   @media (min-width:768px) {
-    padding: 25px 0;
+    padding: 20px 0;
     height: 80px;
     
   }
@@ -30,6 +34,10 @@ $var2: #757575;
         border: 2px solid #212121;
       }
     }
+    // @media(min-width:480px){
+
+
+    // }
 
     @media (min-width:768px){
       display: none;
