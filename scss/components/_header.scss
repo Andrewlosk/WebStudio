@@ -9,7 +9,7 @@ $var2: #757575;
   background-color: $color_white;
 
   width: 100vw;
-  @media(){
+  @media(min-width:320px){
     padding: 14px 0;
     height: 55px;
   }
@@ -24,7 +24,7 @@ $var2: #757575;
   }
 
   &__hamburger {
-    @media (min-width:480px){
+    @media (min-width:320px){
       display: flex;
       flex-direction: column;
       gap: 4px;
@@ -53,7 +53,10 @@ $var2: #757575;
     color: $color_light_black;
     margin: 0;
 
+    @media(min-width:320px){
+      font-size: 23px;
 
+    }
     @media (min-width:480px){
       font-size: 24px;
     }
@@ -85,7 +88,7 @@ $var2: #757575;
     gap: 53px;
     padding: 0;
 
-    @media (min-width:480px){
+    @media (min-width:320px){
       display: none;
     }
     @media (min-width:768px){
@@ -97,7 +100,7 @@ $var2: #757575;
     color: $color_gray2;
   }
   &_link {
-    @media(min-width:480px) {
+    @media(min-width:320px) {
       display: none;
       
     }
