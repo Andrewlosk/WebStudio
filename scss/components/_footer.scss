@@ -81,6 +81,11 @@
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: $color_white;
+    margin: 0;
+    margin-bottom: 20px;
+    // @media(min-width:320px){
+        
+    // }
 }
 
 .footer__block--second{
