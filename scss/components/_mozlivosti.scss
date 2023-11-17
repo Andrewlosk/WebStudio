@@ -12,7 +12,7 @@
 	// }
 	&__list {
 		display: flex;
-		// width: 1171px;
+
 		justify-content: space-between;
 		margin: 0 auto;
 		margin-bottom: 90px;
@@ -39,7 +39,10 @@
 		@media (min-width:320px){
 			flex-direction: column;
 			flex-wrap: wrap;
-			text-align: center;
+			// text-align: center;
+			justify-content: center;
+
+			align-items:center;
 			
 			
 		}
@@ -48,11 +51,15 @@
 
 			width: 738px;
 			text-align: left;
+			justify-content: space-between;
+			align-items:normal;
+
 		}
 		@media (min-width:1200px){
 			flex-wrap: nowrap;
 			gap: 30px;
 			width: auto;
+			
 
 		}
 	}
@@ -86,6 +93,8 @@
 		letter-spacing: 0.03em;
 		text-transform: uppercase;
 		color:  $color_light_black;
+		margin-top: 30px;
+		margin-bottom: 10px;
 		@media(min-width:480px){
 			text-align: center;
 
