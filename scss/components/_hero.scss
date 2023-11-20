@@ -6,6 +6,17 @@
     background-size: cover;
     background-position: center;
 
+
+
+    @media (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .box {
+      background-image: url('./img/2xbackground.png');
+    }
+    }
+
     margin-top: 74px;
     margin-bottom: 90px;
     @media(min-width:320px){
